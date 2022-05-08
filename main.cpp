@@ -16,7 +16,7 @@ int main()
    cin >> sizeArr;
    int numbers[sizeArr];
    ptr = numbers;                                    // points to the address of the 1st element in array
-   cout << "Input " << sizeArr << " element/s in array:" << endl << endl;
+   cout << "Input " << sizeArr << " element/s in array(int):" << endl << endl;
 
    for(size_t i = 0; i < sizeArr; ++i)
    {
